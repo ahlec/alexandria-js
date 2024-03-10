@@ -1,21 +1,16 @@
 {
   "compilerOptions": {
+    "esModuleInterop": true,
     "baseUrl": "./",
     "paths": {
       "@alexandria/*": ["src/*"]
     },
-    "module": "commonjs",
+    "module": "ESNext",
+    "moduleResolution": "Node",
     "target": "ES2017",
-    "noImplicitAny": true,
-    "noUnusedLocals": true,
-    "removeComments": true,
-    "resolveJsonModule": true,
-    "preserveConstEnums": true,
     "sourceMap": true,
     "strict": true,
-    "outDir": "build",
-    "typeRoots": ["node_modules/@types", "./types"]
+    "outDir": "build"
   },
-  "include": ["src/**/*"],
-  "exclude": ["**/@types.ts"]
+  "include": ["./src/**/*"]
 }
