@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@alexandria/*": ["src/*"]
+    },
+    "module": "commonjs",
+    "target": "ES2017",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "strict": true,
+    "outDir": "build",
+    "typeRoots": ["node_modules/@types", "./types"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/@types.ts"]
+}
