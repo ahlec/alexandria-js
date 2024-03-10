@@ -18,10 +18,15 @@
     "format": "prettier --write ."
   },
   "packageManager": "yarn@4.1.1",
+  "dependencies": {
+    "jsdom": "^24.0.0",
+    "node-fetch": "^3.3.2"
+  },
   "devDependencies": {
     "@ahlec/eslint-plugin": "^0.0.3",
     "@types/eslint": "^8",
     "@types/jest": "^29.5.12",
+    "@types/jsdom": "^21.1.6",
     "@types/node": "^20.11.25",
     "@typescript-eslint/eslint-plugin": "^7.1.1",
     "@typescript-eslint/parser": "^7.1.1",
